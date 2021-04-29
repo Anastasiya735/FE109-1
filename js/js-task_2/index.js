@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 let Uname = prompt("Как Вас зовут?");
     console.log("Меня зовут " + Uname +"!");
     age = prompt("Сколько Вам лет?"),
@@ -52,3 +53,6 @@ git
 
 
     
+=======
+ 
+>>>>>>> 89abe3eca54460237b64a43edde1e000d35c5d71

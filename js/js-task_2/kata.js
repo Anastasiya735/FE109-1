@@ -30,4 +30,8 @@ function getGrade (s1, s2, s3) {
       }
       }
 }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 89abe3eca54460237b64a43edde1e000d35c5d71
