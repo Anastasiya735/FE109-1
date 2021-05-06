@@ -26,9 +26,9 @@ sum1 = 0;
 for(b=1; b<=5; b++) {
     sum1+=b;
     console.log("Сумма в числе " +b+  "равна " +sum1);
-}
+}*/
 
-for(d=8; d<=56; d++) {
+/*for(d=8; d<=56; d++) {
     if(d % 2 == 0) 
     console.log(d);
 }
@@ -36,9 +36,9 @@ let d1 = 8;
 while(d1<=56) {
     document.write(d1+"<br>")
     d1+=2;
-}
+}*/
 
-let k = 2, j = 1, result;
+/*let k = 2, j = 1, result;
 while(j<=10) {
    result = k * j;
     console.log(k +"*" +j+ "=" +result);
@@ -48,10 +48,10 @@ for(k=1; k <=10; k++) {
     for(j=1; j<=10; j++) {
         console.log(k + "*"  +j+ "=" +(k*j));
     }
-}
+}*/
 
 
-let n = 1000, num = 0;
+/*let n = 1000, num = 0;
 while(true) {
 if(n>=50) {
     n=n/2;
@@ -59,9 +59,9 @@ if(n>=50) {
 } else { break 
 }
 }
-console.log(n,num);
+console.log(n,num);*/
 
-let num1, avgNum=0;
+/*let num1, avgNum=0;
 sum=0;
 i=0;
 while(true) {
@@ -77,7 +77,7 @@ while(true) {
 }
 console.log("Sum" + sum + " Averege" + sum/i);*/
 
-let str = '4 98 4 6 1 32 4 65 4 3 5 7 89 7 10 1 36 8 57';
+/*let str = '4 98 4 6 1 32 4 65 4 3 5 7 89 7 10 1 36 8 57';
 let arrStr = str.split(" ");
 let max = arrStr[0], min = arrStr[0];
 for (i=0; i<arrStr.length; i++) {
@@ -88,6 +88,15 @@ for (i=0; i<arrStr.length; i++) {
         min=arrStr[i]
     }
 }
-console.log(`MAX ${max}, MIN ${min}`);
+console.log(`MAX ${max}, MIN ${min}`);*/
 
+str1 = prompt("Введите число для10 задачи");
+sum = 0;
+arrStr = str1.split("");
+for(i=0; i<arrStr.length; i++) {
+    sum +=+arrStr[i];
+}
+console.log("число:" + str1);
+revrs = arrStr.reverse().join("");
+console.log("цифр в числе: "+arrStr.length+"Сумма чисел массива: "+sum+"Обратный порядок: "+revrs);
 
