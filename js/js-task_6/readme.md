@@ -75,6 +75,13 @@ c записалось положительное значение. Провер
          'meal'
          
         ```
+        /*function gridIndex(grid, indices) {
+  let array = grid.flat();
+  let getword = indices.map(item => array[item-1]).join('');
+  return getword;
+}*/
+
+
     Результат функции должен вернуть строку
     
     [kata](https://www.codewars.com/kata/5f5802bf4c2cc4001a6f859e/train/javascript)
